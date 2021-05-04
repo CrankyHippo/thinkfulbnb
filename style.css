@@ -37,10 +37,6 @@ main img {
 
 /* ---  Groups & Items --- */
 
-.item img {
-  width: 100%;
-}
-
 .group {
   display: flex;
   flex-direction: column;
