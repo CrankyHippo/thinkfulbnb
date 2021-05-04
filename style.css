@@ -28,6 +28,7 @@ section {
 section.alternate-background {
   background-color: #00A699;
   color: #fff;
+  margin-top: 16px;
 }
 
 main img {
@@ -36,9 +37,14 @@ main img {
 
 /* ---  Groups & Items --- */
 
+.item img {
+  width: 100%;
+}
+
 .group {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .item {
@@ -59,6 +65,8 @@ header {
 }
 
 .logo {
+  display: flex;
+  justify-content: center;
   font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
@@ -67,10 +75,13 @@ header {
 header nav {
   display: flex;
   justify-content: center;
+  padding-bottom: 14px;
 }
 
 header nav ul {
   display: flex;
+  justify-content: center;
+  padding-bottom: 14px;
 }
 
 header nav ul li {
@@ -89,18 +100,24 @@ header nav ul li a:hover {
 }
 
 /* -------  Search Form ------- */
+
 form {
   border: 2px solid #FF385C;
   padding: 10px;
 }
 
 form label {
+  display: flex;
   font-weight: bold;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 15px;
 }
 
 form div {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 form select, form input {
@@ -131,7 +148,13 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 480px) {
+@media all and (max-width:480px){
+  .logo{
+    font-size: 50px;
+  }
+}
+
+@media all and (min-width: 1024px) {
   header {
     display: flex;
     justify-content: space-between;
