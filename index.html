@@ -29,6 +29,9 @@
         </ul>
       </nav>
     </header>
+    
+    <!-- Toggle Dark Mode Button -->
+    <button class="button" onclick="darkMode()">Dark Mode</button>
 
     <main>
       <!-- Stay -->
@@ -165,6 +168,13 @@
         </div>
       </section>
     </main>
+
+    <script>
+      function darkMode() {
+        let element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
 
     <footer>
       <p>© Thinkful</p>
