@@ -1,7 +1,7 @@
 /* -------  General Styles ------- */
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h2 {
@@ -26,7 +26,7 @@ section {
 }
 
 section.alternate-background {
-  background-color: #00A699;
+  background-color: #00a699;
   color: #fff;
   margin-top: 16px;
 }
@@ -55,7 +55,7 @@ main img {
 /* -------  Navigation ------- */
 
 header {
-  background-color: #FF385C;
+  background-color: #ff385c;
   padding: 20px 20px 0 20px;
   text-align: center;
 }
@@ -98,7 +98,7 @@ header nav ul li a:hover {
 /* -------  Search Form ------- */
 
 form {
-  border: 2px solid #FF385C;
+  border: 2px solid #ff385c;
   padding: 10px;
 }
 
@@ -116,13 +116,14 @@ form div {
   flex-direction: row;
 }
 
-form select, form input {
+form select,
+form input {
   margin-bottom: 20px;
   width: 180px;
 }
 
 form button {
-  background-color: #FF385C;
+  background-color: #ff385c;
   border: none;
   color: #fff;
   font-size: 24px;
@@ -133,7 +134,7 @@ form button {
 /* -------  Footer ------- */
 
 footer {
-  background-color: #FF385C;
+  background-color: #ff385c;
 }
 
 footer p {
@@ -144,8 +145,8 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (max-width:480px){
-  .logo{
+@media all and (max-width: 480px) {
+  .logo {
     font-size: 50px;
   }
 }
@@ -162,7 +163,7 @@ footer p {
     padding-top: 0;
     font-size: 42px;
   }
-  
+
   header nav ul {
     align-items: center;
   }
@@ -185,8 +186,9 @@ footer p {
   form button {
     flex: 1;
   }
-  
-  form select, form input {
+
+  form select,
+  form input {
     margin-bottom: 0px;
   }
 }
